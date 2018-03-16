@@ -12,7 +12,7 @@ class ToDoListApp extends React.component {
 		this.setState(() => {
 			return {
 			options: []
-			},
+			};
 		});
 	}
 	handlePick() {
@@ -136,7 +136,7 @@ class AddOption extends React.Component {
 		const option = e.target.elements.option.value.trim;
 		const error = this.props.handleAddOption(option);
 		this.setState(() => {
-			return: { error };
+			return { error };
 		});
 	}
 	render() {

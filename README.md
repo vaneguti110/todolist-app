@@ -1,6 +1,6 @@
 # todolist-app
 
-1. Install emmet in your texteditor, uses for html & css to show up and complete tags in an easy flow.
+1. Install emmet in your text editor, which is uses for html & css to show up and complete tags in an easy flow.
 
 2. Install node-js and yarn
 

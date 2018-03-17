@@ -119,6 +119,15 @@ class Options extends React.component {
 	}
 }
 
+class Option extends React.component {
+	render(){
+		return (
+			<div>
+			{this.props.optionText}
+			</div>		
+		);
+	}
+}
 
 
 //AddOption -> AddOption component here 
